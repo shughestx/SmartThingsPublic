@@ -1,21 +1,17 @@
 ---
 name: inventory-variance-research
 description: >
-  Agentic root-cause research for inventory variances at Equity Exchange. Takes the list of
-  items with physical count variances (from the monthly variance report at
-  secure.perrytonequity.com), then works the list ONE ITEM AT A TIME — investigating purchase
-  history, transfers, adjustments, unposted BOLs, unit-of-measure errors, and sister-SKU
-  mix-ups — to explain WHY each item is out of balance. Produces an Excel research workbook
-  with evidence, a root-cause classification, and a recommended corrective action per item.
-
-  Use this skill whenever Shawn asks to: research the variances, investigate why inventory is
-  out of balance, work the variance list, find out why counts don't match, explain the
-  shortages/overages, chase down count discrepancies, or reconcile physical counts to the ERP.
-  Also trigger on phrases like "why are we short on [item]", "dig into the variances",
-  "research why it's not in balance", "what's driving the variance", or any request to go
-  item-by-item through count variances — even if he just says "work the variances" or
-  "research the variance report." (Note: RUNNING the variance report itself is the
-  variance-margin-report skill; this skill is the follow-up investigation of the items on it.)
+  Agentic root-cause research for Equity Exchange inventory variances. Takes the items with
+  physical count variances from the monthly variance report at secure.perrytonequity.com and
+  works them ONE AT A TIME — checking purchase history, transfers, adjustments, unposted BOLs,
+  unit-of-measure errors, and sister-SKU mix-ups — to explain WHY each is out of balance.
+  Produces an Excel workbook with evidence, root cause, and corrective action per item.
+  Use whenever Shawn asks to: research the variances, investigate why inventory is out of
+  balance, work the variance list, explain shortages/overages, chase count discrepancies, or
+  reconcile counts to the ERP. Also triggers on "why are we short on [item]", "dig into the
+  variances", "what's driving the variance" — even if he just says "work the variances."
+  (Running the report itself is the variance-margin-report skill; this is the follow-up
+  investigation of the items on it.)
 ---
 
 # Inventory Variance Research Agent — Equity Exchange
